@@ -1,0 +1,81 @@
+a {
+    text-decoration: none;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://images3.alphacoders.com/132/1324452.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+.login__block {
+    width: 400px;
+    background: rgba(239, 239, 239, 0.367);
+    text-align: center;
+    border-radius: 8px;
+    backdrop-filter: blur(40px);
+    padding: 50px 20px;
+}
+
+.log__name {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.login__text {
+    margin-bottom: 30px;
+}
+
+span {
+    display: block;
+    text-align-last: left;
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
+
+.check {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+.check span {
+    margin-top: 0px;
+}
+
+.login__input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.login__input:focus {
+    outline: none;
+}
+
+.login__btn {
+    display: block;
+    padding: 15px;
+    margin: 20px 0;
+    background: red;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.checkbox {
+    accent-color: #D84315;
+    height: 16px;
+    width: 16px;
+}
+
+.forgot, .sign {
+    color: #B71C1C;
+}
